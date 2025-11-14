@@ -1,6 +1,6 @@
 # {{name}} — Automated GitHub Resume
 
-### 🌟 GitHub Summary (Auto-Generated)
+### 🌟 GitHub Summary (Auto-Generated Weekly)
 
 - **Public Repositories:** {{public_repos}}
 - **Followers:** {{followers}}
