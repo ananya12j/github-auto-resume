@@ -2,7 +2,7 @@ name: Auto-Update Resume
 
 on:
   schedule:
-    - cron: "0 0 * * 1"  # Runs every Monday at midnight
+    - cron: "0 0 * * 1"  # Runs every Monday at midnight UTC
   workflow_dispatch:
 
 jobs:
@@ -10,8 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
+    - name: Checkout repo (with credentials)
       uses: actions/checkout@v3
+      with:
+        persist-credentials: true  # allows push using GITHUB_TOKEN
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -23,7 +25,7 @@ jobs:
 
     - name: Run script to generate resume
       env:
-        GITHUB_USERNAME: ${{ secrets.RESUME_USER }}
+        GITHUB_USERNAME: ${{ secrets.RESUME_USER }}   # <-- your secret
       run: python scripts/generate_resume.py
 
     - name: Commit and push changes
@@ -33,4 +35,4 @@ jobs:
         git add Resume.md
         git commit -m "Auto-update Resume" || echo "No changes to commit"
         git push
-      continue-on-error: true
+      continue-on-error: false
