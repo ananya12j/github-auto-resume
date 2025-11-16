@@ -4,11 +4,11 @@
 
 ## 📊 GitHub Summary
 - **Public Repositories:** 9
-- **Followers:** 1
+- **Followers:** 2
 - **Following:** 0
 - **Total Stars:** 0
 - **Top Languages:** Jupyter Notebook, Python, HTML
-- _Last updated on **15 Nov 2025**_
+- _Last updated on **16 Nov 2025**_
 
 ---
 
@@ -16,8 +16,8 @@
 
 ## 🧩 Projects (Auto-Generated)
 
-- **[NLP_project_InsurAssist](https://github.com/ananya12j/NLP_project_InsurAssist)** ⭐0 — AI-Powered Insurance Policy Q&A Assistant
 - **[github-auto-resume](https://github.com/ananya12j/github-auto-resume)** ⭐0 — # GitHub Auto-Generated Resume 📝⚙️
+- **[NLP_project_InsurAssist](https://github.com/ananya12j/NLP_project_InsurAssist)** ⭐0 — AI-Powered Insurance Policy Q&A Assistant
 - **[Recipe-App](https://github.com/ananya12j/Recipe-App)** ⭐0 — No description available.
 - **[Aoml-final-proj](https://github.com/ananya12j/Aoml-final-proj)** ⭐0 — # Aoml-final-proj This project combines OCR, Machine Learning, Deep Learning, and AI-based NLP to create an interactive, real-time study assistant. It not only detects confusion dynamically but also provides AI-generated explanations, improving user engagement and making self-learning more effective...
 - **[Reinforcement-Learning](https://github.com/ananya12j/Reinforcement-Learning)** ⭐0 — No description available.
